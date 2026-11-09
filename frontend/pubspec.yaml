@@ -1,0 +1,16 @@
+name: maisuchat
+description: MaisuChat — automação conversacional para equipes
+publish_to: 'none'
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.27.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  firebase_core: ^4.15.0
+  cloud_firestore: ^6.10.0
+  firebase_auth: ^6.7.0
+flutter:
+  uses-material-design: true
+

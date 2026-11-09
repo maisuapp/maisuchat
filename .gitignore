@@ -1,0 +1,29 @@
+node_modules/
+**/node_modules/
+
+# Flutter / Dart
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.dart_tool/
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Misc
+.DS_Store
+
